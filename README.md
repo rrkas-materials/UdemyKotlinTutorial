@@ -41,6 +41,17 @@ Key comonents used:
  3. Button
  4. TextView  
 
+
+## App4: Pokemon Game
+
+A map based application to catch pokemons in player's range.  
+
+Key components used:  
+ 1. Map
+ 2. BitmapDescriptor
+ 3. runOnUiThread
+ 4. permissions   
+
 ## Errors faced and solutions:
 
  1. [Unresolved reference: kotlinx](https://stackoverflow.com/questions/34169562/unresolved-reference-kotlinx)
