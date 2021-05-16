@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="horizontal"
+    android:padding="3pt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/animal_background"
+        android:padding="3pt">
+
+        <ImageView
+            android:id="@+id/ivAnimal"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            app:srcCompat="@drawable/baboon"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5pt">
+
+            <TextView
+                android:id="@+id/tvAnimalName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baboon"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvAnimalDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A kind of money"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonDeleteAnimal"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="X"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/buttonDuplicateAnimal"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:text="D"
+                tools:ignore="HardcodedText"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -52,6 +52,25 @@ Key components used:
  3. runOnUiThread
  4. permissions   
 
+## App5: Zoo App
+
+A list of animals in Zoo.  
+
+Key components used:  
+ 1. ListView
+ 2. LinearLayout
+ 3. Drawable resource file
+ 4. LayoutInflator
+ 5. BaseAdapter
+ 6. if expression
+ 7. different views in one list
+ 8. Intent
+ 9. Button  
+
+Features:  
+ - delete item from list
+ - add items to list  
+
 ## Errors faced and solutions:
 
  1. [Unresolved reference: kotlinx](https://stackoverflow.com/questions/34169562/unresolved-reference-kotlinx)
