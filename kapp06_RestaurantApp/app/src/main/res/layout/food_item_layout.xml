@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/grey"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content" android:paddingVertical="10dp">
+
+    <LinearLayout
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/item_background"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivFoodItem"
+            android:src="@drawable/coffee_pot"
+            android:layout_width="60pt"
+            android:layout_height="60pt"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvFoodItem"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Coffee"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -71,6 +71,20 @@ Features:
  - delete item from list
  - add items to list  
 
+
+## App6: Restaurant Menu App
+
+A simple menu app for food items.  
+
+Key components used:  
+ 1. GridView
+ 2. LinearLayout
+ 3. Drawable Resource file
+ 4. LayoutInflator
+ 5. BaseAdapter  
+
+
+
 ## Errors faced and solutions:
 
  1. [Unresolved reference: kotlinx](https://stackoverflow.com/questions/34169562/unresolved-reference-kotlinx)
